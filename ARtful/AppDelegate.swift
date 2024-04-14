@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  ARtful
 //
-//  Created by Oliver Zolan on 4/14/24.
+//  Created by Zerowave on 4/13/24.
 //
 
 import UIKit

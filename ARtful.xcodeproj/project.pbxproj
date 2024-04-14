@@ -11,6 +11,12 @@
 		AE8CB51B2BCC12DA0064E607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8CB51A2BCC12DA0064E607 /* ContentView.swift */; };
 		AE8CB51D2BCC12DC0064E607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8CB51C2BCC12DC0064E607 /* Assets.xcassets */; };
 		AE8CB5202BCC12DC0064E607 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE8CB51F2BCC12DC0064E607 /* Preview Assets.xcassets */; };
+		AE8CB52B2BCC148A0064E607 /* Bones.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8CB5262BCC148A0064E607 /* Bones.swift */; };
+		AE8CB52C2BCC148A0064E607 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8CB5272BCC148A0064E607 /* ARViewContainer.swift */; };
+		AE8CB52D2BCC148A0064E607 /* BodySkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8CB5282BCC148A0064E607 /* BodySkeleton.swift */; };
+		AE8CB52E2BCC148A0064E607 /* SkeletonBone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8CB5292BCC148A0064E607 /* SkeletonBone.swift */; };
+		AE8CB52F2BCC148A0064E607 /* SkeletonJoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8CB52A2BCC148A0064E607 /* SkeletonJoint.swift */; };
+		AE8CB5322BCC16BC0064E607 /* OpenSans_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE8CB5312BCC16BC0064E607 /* OpenSans_Condensed-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		AE8CB51A2BCC12DA0064E607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE8CB51C2BCC12DC0064E607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE8CB51F2BCC12DC0064E607 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE8CB5262BCC148A0064E607 /* Bones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bones.swift; sourceTree = "<group>"; };
+		AE8CB5272BCC148A0064E607 /* ARViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		AE8CB5282BCC148A0064E607 /* BodySkeleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodySkeleton.swift; sourceTree = "<group>"; };
+		AE8CB5292BCC148A0064E607 /* SkeletonBone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkeletonBone.swift; sourceTree = "<group>"; };
+		AE8CB52A2BCC148A0064E607 /* SkeletonJoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkeletonJoint.swift; sourceTree = "<group>"; };
+		AE8CB5302BCC14E90064E607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AE8CB5312BCC16BC0064E607 /* OpenSans_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		AE8CB5172BCC12DA0064E607 /* ARtful */ = {
 			isa = PBXGroup;
 			children = (
+				AE8CB5302BCC14E90064E607 /* Info.plist */,
+				AE8CB5312BCC16BC0064E607 /* OpenSans_Condensed-SemiBold.ttf */,
 				AE8CB5182BCC12DA0064E607 /* AppDelegate.swift */,
 				AE8CB51A2BCC12DA0064E607 /* ContentView.swift */,
+				AE8CB5272BCC148A0064E607 /* ARViewContainer.swift */,
+				AE8CB5282BCC148A0064E607 /* BodySkeleton.swift */,
+				AE8CB5262BCC148A0064E607 /* Bones.swift */,
+				AE8CB5292BCC148A0064E607 /* SkeletonBone.swift */,
+				AE8CB52A2BCC148A0064E607 /* SkeletonJoint.swift */,
 				AE8CB51C2BCC12DC0064E607 /* Assets.xcassets */,
 				AE8CB51E2BCC12DC0064E607 /* Preview Content */,
 			);
@@ -127,6 +147,7 @@
 			files = (
 				AE8CB5202BCC12DC0064E607 /* Preview Assets.xcassets in Resources */,
 				AE8CB51D2BCC12DC0064E607 /* Assets.xcassets in Resources */,
+				AE8CB5322BCC16BC0064E607 /* OpenSans_Condensed-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +159,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8CB51B2BCC12DA0064E607 /* ContentView.swift in Sources */,
+				AE8CB52C2BCC148A0064E607 /* ARViewContainer.swift in Sources */,
+				AE8CB52E2BCC148A0064E607 /* SkeletonBone.swift in Sources */,
+				AE8CB52D2BCC148A0064E607 /* BodySkeleton.swift in Sources */,
+				AE8CB52B2BCC148A0064E607 /* Bones.swift in Sources */,
+				AE8CB52F2BCC148A0064E607 /* SkeletonJoint.swift in Sources */,
 				AE8CB5192BCC12DA0064E607 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +301,7 @@
 				DEVELOPMENT_TEAM = JWWRMVGGLT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARtful/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +333,7 @@
 				DEVELOPMENT_TEAM = JWWRMVGGLT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ARtful/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
